@@ -1,0 +1,56 @@
+{
+    "image": "ghcr.io/onslowcollege/webtemplate:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "eamodio.gitlens",
+                "GitHub.vscode-pull-request-github",
+                "bierner.github-markdown-preview",
+                "yzhang.markdown-all-in-one",
+                "usernamehw.errorlens",
+                "aaron-bond.better-comments",
+                "hediet.vscode-drawio",
+                "ritwickdey.LiveServer",
+                "formulahendry.auto-close-tag",
+                "formulahendry.auto-complete-tag",
+                "formulahendry.auto-rename-tag",
+                "bierner.color-info",
+                "pranaygp.vscode-css-peek",
+                "ecmel.vscode-html-css",
+                "oderwat.indent-rainbow",
+                "bierner.lit-html",
+                "christian-kohler.path-intellisense",
+                "Photopea.photopea",
+                "vsls-contrib.gitdoc",
+                "danielgjackson.auto-dark-mode-windows"
+            ],
+            "settings": {
+                "editor.wordWrap": "on",
+                "editor.inlayHints.enabled": "off",
+                "editor.fontSize": 16,
+                "editor.formatOnSave": true,
+                "editor.formatOnSaveMode": "modificationsIfAvailable",
+                "editor.formatOnType": true,
+                "editor.rulers": [
+                    120
+                ],
+                "editor.tokenColorCustomizations": {
+                    "textMateRules": [
+                        {
+                            "scope": "comment",
+                            "settings": {
+                                "fontStyle": "italic"
+                            }
+                        }
+                    ]
+                },
+                "gitdoc.commitValidationLevel": "none",
+                "gitdoc.enabled": true,
+                "workbench.colorTheme": "Default Light Modern",
+                "workbench.preferredDarkColorTheme": "Default Dark Modern",
+                "workbench.preferredLightColorTheme": "Default Light Modern"
+            }
+        }
+    },
+    "postStartCommand": "bash -c git remote set-url origin 'https://github.com/OnslowCollege/$(basename $(pwd))'"
+}
