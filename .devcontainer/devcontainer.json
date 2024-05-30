@@ -21,8 +21,7 @@
                 "bierner.lit-html",
                 "christian-kohler.path-intellisense",
                 "Photopea.photopea",
-                "vsls-contrib.gitdoc",
-                "danielgjackson.auto-dark-mode-windows"
+                "vsls-contrib.gitdoc"
             ],
             "settings": {
                 "editor.wordWrap": "on",
@@ -46,11 +45,10 @@
                 },
                 "gitdoc.commitValidationLevel": "none",
                 "gitdoc.enabled": true,
-                "workbench.colorTheme": "Default Light Modern",
-                "workbench.preferredDarkColorTheme": "Default Dark Modern",
-                "workbench.preferredLightColorTheme": "Default Light Modern"
+                "gitlens.showWhatsNewAfterUpgrades": false,
+                "gitlens.showWelcomeOnInstall": false,
+                "workbench.colorTheme": "Default Light Modern"
             }
         }
-    },
-    "postStartCommand": "bash -c git remote set-url origin 'https://github.com/OnslowCollege/$(basename $(pwd))'"
+    }
 }
