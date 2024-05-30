@@ -1,11 +1,12 @@
-var readline = require('readline');
+interface Person {  //A
+  firstName: string; //B
+  lastName: string; //C
+}
 
-var rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-})
+function greeter(person: Person) { //D
+  return "Hello, " + person.firstName + " " + person.lastName;
+}
 
-rl.question("Enter your name: ", function(name: String) {
-    console.log("Hello, %s!", name)
-    rl.close()
-})
+let user = { firstName: "Joe", lastName: "Kim" };
+
+document.body.innerText = greeter(user);
