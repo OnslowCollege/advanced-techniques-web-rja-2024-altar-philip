@@ -1,5 +1,3 @@
-# Onslow College Digital Technologies
-
 ## Web Template
 
 Use this template to develop a website in HTML and CSS.
