@@ -14,12 +14,12 @@ This template includes:
 
 Once your Codespace has loaded, you can open your project in the following ways:
 
-### Static websites (11DIT)
+### Static websites
 
-- click on the Live Server icon at the bottom-right
+- click on the Live Server icon at the bottom-right. This will load `index.html`.
 
-### TypeScript code (11DIT, 12DTC, 13DTC)
+### NodeJS (TypeScript) code
 
-- click on Terminal menu, select "Run Build Task", then click "npm: start:watch"
+- click on Terminal menu, select "Run Build Task", then click "npm: start:watch". This will load `index.ts`.
 
 In either case, click on the prompt that appears at the bottom right to open your website in a browser window. Your website will update **automatically** whenever you save your files (Ctrl/Cmd-S); **you do not need to restart Live Server or run the build task again**!
