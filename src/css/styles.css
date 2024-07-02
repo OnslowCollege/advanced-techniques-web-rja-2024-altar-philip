@@ -18,5 +18,8 @@ body {
     opacity: 80;
 }
 h1 {
-    text-align: center;
+    text-align: left;
+        position: relative;
+        left: 20px;
+        top: 15px;
 }
