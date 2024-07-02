@@ -4,7 +4,8 @@ html {
         max-height: max-content;
 }
 
-div #navigation {
+div,
+#navigation {
     background-color: #22e28c;
     width: 100px;
         height: 100px;
