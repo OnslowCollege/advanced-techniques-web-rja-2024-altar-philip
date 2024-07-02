@@ -1,12 +1,11 @@
 html {
     background-color: #e8f8ff;
-    max-width: max-content;
-        max-height: max-content;
+    width: 100%;
+        height: 100%;
 }
 
-div,
 #navigation {
+    width: 100%;
+        height: 100%;
     background-color: #22e28c;
-    width: 100px;
-        height: 100px;
 }
