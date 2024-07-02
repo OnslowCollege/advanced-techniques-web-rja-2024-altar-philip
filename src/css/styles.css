@@ -19,9 +19,8 @@ body {
 }
 h1 {
     color: #051031;
-        font-size: -webkit-xxx-large;
+    font-size: xx-large;
     text-align: left;
-    position: absolute;
+    position: fixed;
         left: 20px;
-    top: -25px;
 }
