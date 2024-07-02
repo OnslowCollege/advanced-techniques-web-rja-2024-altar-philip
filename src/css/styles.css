@@ -12,9 +12,11 @@ body {
             height: 12%;
 }
 #navigation {
-    text-align: 100px;
     width: 100%;
         height: 100%;
     background-color: #22e28c;
     opacity: 80;
+}
+h1 {
+    text-align: center;
 }
