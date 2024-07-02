@@ -1,7 +1,9 @@
 html {
-    color: #e8f8ff;
+    background-color: #e8f8ff;
 }
 
 #navigation {
-    color: #22e28c;
+    background-color: #22e28c;
+        width: 500pc;
+        height: 500pc;
 }
