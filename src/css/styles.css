@@ -17,7 +17,10 @@ body {
     background-color: #22e28c;
     opacity: 80%;
 }
-h1 {
+/* this might need work based on the fact that the text doen't resize correctly at small displays */
+
+a {
+    text-decoration: None;
     color: #051031;
     font-size: xx-large;
     text-align: left;
