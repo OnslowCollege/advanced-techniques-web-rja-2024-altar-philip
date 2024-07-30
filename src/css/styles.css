@@ -16,6 +16,10 @@ body {
         height: 100%;
     background-color: #22e28c;
     opacity: 80%;
+    display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        column-gap: 50px;
 }
 /* this might need work based on the fact that the text doen't resize correctly at small displays */
 
@@ -26,4 +30,7 @@ a {
     text-align: left;
     position: fixed;
         left: 20px;
+}
+p1 {
+    font-size: xx-large;
 }
