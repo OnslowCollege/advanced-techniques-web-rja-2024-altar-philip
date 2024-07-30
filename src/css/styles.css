@@ -17,9 +17,13 @@ body {
     background-color: #22e28c;
     opacity: 80%;
     display: flex;
-        justify-content: space-around;
+    justify-content: space-around;
         flex-wrap: wrap;
         column-gap: 50px;
+    border-radius: 50px;
+        padding: 40px;
+        margin: 0 auto;
+        margin-bottom: 50px;
 }
 /* this might need work based on the fact that the text doen't resize correctly at small displays */
 
@@ -37,5 +41,5 @@ a1 {
     font-size: xx-large;
 }
 p1 {
-    font-size: xx-large;
+font-size: xx-large;
 }
