@@ -23,7 +23,7 @@ body {
 }
 /* this might need work based on the fact that the text doen't resize correctly at small displays */
 
-a1 {
+a {
     text-decoration: None;
     color: #051031;
     font-size: x-large;
