@@ -27,14 +27,6 @@ body {
 }
 /* this might need work based on the fact that the text doen't resize correctly at small displays */
 
-a {
-    text-decoration: None;
-    color: #051031;
-    font-size: xx-large;
-    text-align: left;
-    position: fixed;
-        left: 20px;
-}
 a1 {
     text-decoration: None;
     color: #051031;
