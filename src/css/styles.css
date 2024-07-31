@@ -31,3 +31,19 @@ a {
 p1 {
 font-size: xx-large;
 }
+#heading {
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: #22e28c;
+    opacity: 80%;
+    border-radius: 50px;
+    padding: 40px;
+}
+
+h1 {
+    font-size: xx-large;
+    color: #051031;
+}
