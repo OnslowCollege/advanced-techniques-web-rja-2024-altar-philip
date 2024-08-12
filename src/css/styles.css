@@ -42,6 +42,10 @@ font-size: xx-large;
         padding: 10px;
 }
 
+#text {
+    max-width: 35%;
+    width: 500px;
+}
 h1 {
     font-size: xx-large;
     color: #051031;
