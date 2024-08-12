@@ -41,11 +41,12 @@ font-size: xx-large;
     margin-top: 50px;
         padding: 10px;
 }
-
 #text {
-    max-width: 35%;
     width: 500px;
+    background-color: #0d48b5;
+        opacity: 80%;
 }
+
 h1 {
     font-size: xx-large;
     color: #051031;
