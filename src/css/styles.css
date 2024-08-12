@@ -43,10 +43,14 @@ font-size: xx-large;
 }
 #text {
     width: 500px;
+    height: 500px;
     background-color: #0d48b5;
         opacity: 80%;
 }
 
+#space_around {
+    padding: 50px;
+}
 h1 {
     font-size: xx-large;
     color: #051031;
