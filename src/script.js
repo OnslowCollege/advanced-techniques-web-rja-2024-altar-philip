@@ -6,7 +6,7 @@ const textToSpeech = () => {
     const text = area.value;
 
     const utternace = new SpeechSynthesisUtterance(text);
-    synth.speak
+    synth.speak(utternace)
 };
 
 button.addEventListener("click", textToSpeech);
