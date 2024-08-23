@@ -1,9 +1,9 @@
-const area = document.querySelector("p2");
+const area = document.querySelector("#text-box");
 const button = document.querySelector("button");
 
 const textToSpeech = () => {
     const synth = window.speechSynthesis;
-    const text = area.value;
+    const text = area.innerText;
 
     const utternace = new SpeechSynthesisUtterance(text);
     synth.speak(utternace)
