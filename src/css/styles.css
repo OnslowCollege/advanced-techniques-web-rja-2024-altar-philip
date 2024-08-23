@@ -43,7 +43,7 @@ font-size: xx-large;
 }
 #text {
     width: 500px;
-    height: 500px;
+    height: 300px;
     background-color: #0d48b5;
         opacity: 80%;
         max-width: 100%;
@@ -51,6 +51,8 @@ font-size: xx-large;
             justify-content: space-around;
             margin-left: 5%;
             margin-right: 5%;
+            margin-top: 50px;
+                margin-bottom: 50px;
             flex-wrap: wrap;
             column-gap: 50px;
             row-gap: 50px;
@@ -59,8 +61,8 @@ font-size: xx-large;
 }
 
 hr {
-    max-width: 600px;
-
+    max-width: 650px;
+        margin-left: 3%;
 }
 h1 {
     font-size: xx-large;
