@@ -44,11 +44,14 @@ font-size: xx-large;
 }
 button {
     margin-left: 5%;
-    width: 50px;
+    width: auto;
     background-color: #8869ce;
     opacity: 80%;
+    font-size: 30px;
+        margin-top: 50px;
 }
 
+/* button is having spacing around it problems and needs to  be placed closer to the text box NEEDS DOING */
 button:hover {
     margin-left: 5%;
     width: 50px;
