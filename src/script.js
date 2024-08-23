@@ -7,6 +7,6 @@ const textToSpeech = () => {
 
     const utternace = new SpeechSynthesisUtterance(text);
     synth.speak
-}
+};
 
 button.addEventListener("click", textToSpeech);
