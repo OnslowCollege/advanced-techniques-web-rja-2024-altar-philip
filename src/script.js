@@ -1,10 +1,15 @@
-const area = index.querySelector("#text-box");
-const button = index.querySelector("button");
+const { text } = require("stream/consumers");
+
+const area = document.querySelectorall("#text-box");
+const button = document.querySelector("button");
 let isSpeaking = True;
+let currentUtterance = null;
 
 const textToSpeech = () => {
     const synth = window.speechSynthesis;
-    const text = area.innerText;
+    let combined = "";
+    textboxes.forEach(box => { combinedText += box.innerText + " "; });
+
 
 
     if (!synth.speaking && text) {
@@ -12,17 +17,30 @@ const textToSpeech = () => {
         synth.speak(utternace);
     }
 
-    if (text.length > 50) {
-        if (synth.speaking && isSpeaking) {
-            button.innerText = "paused";
-            synth.resume();
-            isSpeaking = False;
+    if (combinedText.length > 50) {
+        if (synth.speaking) {
+            if (isSpeaking) {
+                button.innerText = "resume";
+                synth.pause();
+                isSpeaking = False;
+            } else {
+                button.innerText = "pause";
+                synth.resume();
+                isSpeaking = True;
+            }
         } else {
-            button.innerText = "resume";
-            synth.pause();
+            currentUtterance = new SpeechSynthesisUtterance(combinedtext);
+            synth.speck(currentUtterance);
             isSpeaking = True;
+            button.innerText = "pause";
+        }
+    } else {
+        if (!synth.speaking) {
+            currentUtterance = new SpeechSynthesisUtterance(combinedtext);
+            synth.speck(currentUtterance);
+            isSpeaking = True;
+            button.innerText = "pause";
         }
     }
-
 };
 button.addEventListener("click", textToSpeech);
