@@ -2,7 +2,7 @@ const { text } = require("stream/consumers");
 
 const area = document.querySelectorall("#text-box");
 const button = document.querySelector("button");
-let isSpeaking = True;
+let isSpeaking = False;
 let currentUtterance = null;
 
 const textToSpeech = () => {
@@ -10,12 +10,6 @@ const textToSpeech = () => {
     let combined = "";
     textboxes.forEach(box => { combinedText += box.innerText + " "; });
 
-
-
-    if (!synth.speaking && text) {
-        const utternace = new SpeechSynthesisUtterance(text);
-        synth.speak(utternace);
-    }
 
     if (combinedText.length > 50) {
         if (synth.speaking) {
