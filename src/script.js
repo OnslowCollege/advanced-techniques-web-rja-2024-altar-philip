@@ -1,38 +1,42 @@
-const area = document.querySelectorall(".text-box");
-const button = document.querySelector("button");
-let isSpeaking = False;
+const area = document.querySelectorAll(".text-box");
+const button = document.querySelectorAll("button");
+let isSpeaking = false;
 let currentUtterance = null;
 
-const textToSpeech = () => {
+button.forEach((button, index) => {
+    button.addEventListener("click", () => {
+        textToSpeech(textboxes[index], button);
+    });
+});
+
+const textToSpeech = (textboxes, button) => {
     const synth = window.speechSynthesis;
-    let combinedtext = "";
-    textboxes.forEach(box => { combinedText += box.innerText + " "; });
+    const text = textbox.innerText;
 
 
-    if (combinedText.length > 50) {
+    if (text.length > 50) {
         if (synth.speaking) {
             if (isSpeaking) {
                 button.innerText = "resume";
                 synth.pause();
-                isSpeaking = False;
+                isSpeaking = false;
             } else {
                 button.innerText = "pause";
                 synth.resume();
-                isSpeaking = True;
+                isSpeaking = true;
             }
         } else {
-            currentUtterance = new SpeechSynthesisUtterance(combinedtext);
-            synth.speck(currentUtterance);
-            isSpeaking = True;
+            currentUtterance = new SpeechSynthesisUtterance(text);
+            synth.speak(currentUtterance);
+            isSpeaking = true;
             button.innerText = "pause";
         }
     } else {
         if (!synth.speaking) {
-            currentUtterance = new SpeechSynthesisUtterance(combinedtext);
-            synth.speck(currentUtterance);
-            isSpeaking = True;
+            currentUtterance = new SpeechSynthesisUtterance(text);
+            synth.speak(currentUtterance);
+            isSpeaking = true;
             button.innerText = "pause";
         }
     }
 };
-button.addEventListener("click", textToSpeech);
