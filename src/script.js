@@ -1,5 +1,5 @@
-const area = document.querySelector("#text-box");
-const button = document.querySelector("button");
+const area = index.querySelector("#text-box");
+const button = index.querySelector("button");
 let isSpeaking = True;
 
 const textToSpeech = () => {
