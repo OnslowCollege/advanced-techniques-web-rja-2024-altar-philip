@@ -5,8 +5,10 @@ const textToSpeech = () => {
     const synth = window.speechSynthesis;
     const text = area.innerText;
 
-    const utternace = new SpeechSynthesisUtterance(text);
-    synth.speak(utternace)
+    if (!synth.speaking && text) {
+        const utternace = new SpeechSynthesisUtterance(text);
+        synth.speak(utternace);
+    }
 };
 
 button.addEventListener("click", textToSpeech);
