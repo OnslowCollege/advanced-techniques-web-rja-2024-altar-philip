@@ -1,4 +1,4 @@
-const area = document.querySelectorall("#text-box");
+const area = document.querySelectorall(".text-box");
 const button = document.querySelector("button");
 let isSpeaking = False;
 let currentUtterance = null;
