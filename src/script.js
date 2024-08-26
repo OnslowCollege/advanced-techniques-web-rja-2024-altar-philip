@@ -12,7 +12,7 @@ const textToSpeech = () => {
         synth.speak(utternace);
     }
 
-    if (text.length > 1) {
+    if (text.length > 50) {
         if (synth.speaking && isSpeaking) {
             button.innerText = "paused";
             synth.resume();
