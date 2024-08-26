@@ -5,13 +5,13 @@ let currentUtterance = null;
 
 button.forEach((button, index) => {
     button.addEventListener("click", () => {
-        textToSpeech(textboxes[index], button);
+        textToSpeech(textBoxes[index], button);
     });
 });
 
-const textToSpeech = (textboxes, button) => {
+const textToSpeech = (textBox, button) => {
     const synth = window.speechSynthesis;
-    const text = textbox.innerText;
+    const text = textBox.innerText;
 
 
     if (text.length > 50) {
