@@ -18,10 +18,10 @@ const textToSpeech = () => {
             synth.resume();
             isSpeaking = False;
         } else {
-                button.innerText = "resume";
-                synth.pause();
-                isSpeaking = True;
+            button.innerText = "resume";
+            synth.pause();
+            isSpeaking = True;
         }
     }
-}
+};
 button.addEventListener("click", textToSpeech);
