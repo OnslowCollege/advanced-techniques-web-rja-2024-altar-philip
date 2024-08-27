@@ -1,5 +1,3 @@
-const { constants } = require("buffer");
-
 const area = document.querySelector("#text-box");
 const button = document.querySelector("#button_1");
 
