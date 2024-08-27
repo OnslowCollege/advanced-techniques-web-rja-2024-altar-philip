@@ -7,9 +7,9 @@ const button = document.querySelector("#button_1");
 const button_2 = document.querySelector("#button_2");
 const area_v2 = document.querySelector("#text_box_v2");
 
-const textToSpeech = (textarea) => {
+const textToSpeech = (paragraph) => {
     const synth = window.speechSynthesis;
-    const text = textarea.value;
+    const text = paragraph.textContent;
 
     if (!synth.speaking && text) {
         const utterance = new SpeechSynthesisUtterance(text);
