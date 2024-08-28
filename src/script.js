@@ -21,26 +21,25 @@ const textToSpeech = (paragraph, button) => {
             isPaused = true;
             return;
         }
-    }
+    } else {
+        if (text) {
+            if (currentUtterance) {
+                synth.cancel();
+            }
 
-    if (text) {
-        if (currentUtterance) {
-            synth.cancel();
-        }
+            currentUtterance = new SpeechSynthesisUtterance(text)
+            currentUtterance.onend = () => {
+                isSpeaking = false;
+                isPaused = false;
+                button.textContent = "play"
+                currentUtterance = null;
+            };
 
-        currentUtterance = new SpeechSynthesisUtterance(text)
-        currentUtterance.onend = () => {
-            isSpeaking = false;
+            synth.speak(currentUtterance);
+            isSpeaking = true;
             isPaused = false;
-            button.textContent = "play"
-            currentUtterance = null;
-        };
-
-        synth.speaking(currentUtterance);
-        isSpeaking = true;
-        isPaused = false;
-        button.textContent = "pause";
-
+            button.textContent = "pause";
+        }
     }
 };
 
