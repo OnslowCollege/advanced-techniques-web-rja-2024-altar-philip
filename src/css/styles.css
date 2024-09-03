@@ -8,7 +8,7 @@ body {
     position: absolute;
         left: -8px;
             top: -24px;
-            width: 100%;
+            width: 97%;
             height: 12%;
 }
 
@@ -92,11 +92,10 @@ hr {
     position: absolute;
         margin-left: 55%;
         margin-top: -910px;
-    border-radius: 50px;
     padding: 10px;
 }
 img {
-    max-width: 377px;
+    max-width: 500px;
 }
 h1 {
     font-size: xx-large;
