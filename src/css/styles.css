@@ -101,7 +101,7 @@ hr {
     justify-content: space-around;
     position: absolute;
         margin-left: 55%;
-        margin-top: -500px;
+        margin-top: -910px;
     padding: 10px;
 }
 #image-box-index {
@@ -114,7 +114,7 @@ hr {
     justify-content: space-around;
     position: absolute;
     margin-left: 55%;
-    margin-top: -910px;
+    margin-top: -500px;
     padding: 10px;
 }
 /*setting the width od the image to being 500px*/
