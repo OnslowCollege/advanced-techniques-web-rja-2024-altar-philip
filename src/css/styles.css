@@ -104,6 +104,19 @@ hr {
         margin-top: -910px;
     padding: 10px;
 }
+#image-box-index {
+    width: auto;
+    height: 500px;
+    background-color: #8869ce;
+    opacity: 80%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: -910px;
+    padding: 10px;
+}
 /*setting the width od the image to being 500px*/
 img {
     max-width: 500px;
