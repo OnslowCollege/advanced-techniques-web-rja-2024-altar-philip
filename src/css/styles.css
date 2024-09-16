@@ -67,11 +67,10 @@ button:hover {
 }
 /*NEEDS TO HAVE COMMENTS*/
 .text-box {
-    width: 500px;
+    width: 40%;
     height: 300px;
     background-color: #0d48b5;
         opacity: 80%;
-        max-width: 100%;
             display: flex;
             justify-content: space-around;
             margin-left: 5%;
@@ -83,6 +82,7 @@ button:hover {
             row-gap: 50px;
             border-radius: 50px;
             padding: 40px;
+    max-width: 500px;
 }
 
 /*setting the width of the paragraph divider and setting how far it is away from the left side of the screen*/
@@ -119,6 +119,7 @@ hr {
 }
 /*setting the width od the image to being 500px*/
 img {
+    width: 100%;
     max-width: 500px;
 }
 /*setting the size of the font within the heading container and setting it color*/
