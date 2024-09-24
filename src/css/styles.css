@@ -58,7 +58,6 @@ button {
 }
 
 /*setting the location of the button away from the left side of the screen and changing the background color to being more visible by changing the opacity of the button when hovering over it*/
-/*button is having spacing around it problems and needs to  be placed closer to the text box NEEDS DOING*/
 button:hover {
     margin-left: 5%;
     width: auto;
