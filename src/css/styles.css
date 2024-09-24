@@ -52,7 +52,7 @@ button {
     margin-left: 5%;
     width: auto;
     background-color: #8869ce;
-    opacity: 80%;
+    opacity: 75%;
     font-size: 30px;
         margin-top: 50px;
 }
@@ -62,7 +62,7 @@ button:hover {
     margin-left: 5%;
     width: auto;
     background-color: #8869ce;
-    opacity: 90%;
+    opacity: 100%;
 }
 /*NEEDS TO HAVE COMMENTS*/
 .text-box {
