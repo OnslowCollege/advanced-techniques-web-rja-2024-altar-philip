@@ -74,12 +74,10 @@ button:hover {
             justify-content: space-around;
             margin-left: 5%;
             margin-right: 5%;
-            margin-top: 50px;
                 margin-bottom: 50px;
             flex-wrap: wrap;
             column-gap: 50px;
             row-gap: 50px;
-            border-radius: 50px;
             padding: 40px;
     max-width: 500px;
 }
