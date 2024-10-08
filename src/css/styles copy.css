@@ -1,0 +1,129 @@
+/*css code that changes the color of the background and makes sure that the html fills out the whole display size*/
+html {
+    background-color: #e8f8ff;
+    width: 100%;
+    height: 100%;
+}
+
+/*css code of the body that sets the position of the body container and setting its height and width*/
+body {
+    position: absolute;
+        left: -8px;
+            top: -24px;
+            width: 97%;
+            height: 12%;
+}
+
+/*the css code of the navigation ID that sets its width to the maximum display size, changes its color and add opacity to the container. it also set how all elements within it to be in a set order with space around each element so they dont collide*/
+#navigation {
+    width: 100%;
+    background-color: #22e28c;
+    opacity: 80%;
+    display: flex;
+    justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px;
+}
+
+/*changes the color of the linked text within the navigation container removing the linking effects (the underlineing and color changing effect) and add a set size to the text.*/
+a {
+    text-decoration: None;
+    color: #051031;
+    font-size: x-large;
+}
+/*simple size setting of the dividers between the links*/
+p1 {
+font-size: xx-large;
+}
+/*setting the witdth of the ID heading making sure the the elemnt is centered within the continer and changing its color, adding opacity to the background color and moving it slightly away from the navigation bar*/
+#heading {
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: #22e28c;
+    opacity: 80%;
+    margin-top: 50px;
+        padding: 10px;
+}
+/*setting the location of the buttons adding its color and setting it s width to be slightly wider than what the text displayed inside it is. it also adds opacity to the background color and setting the size of the text within it and setting it location away from the left side of the screen*/
+button {
+    margin-left: 5%;
+    width: auto;
+    background-color: #8869ce;
+    opacity: 75%;
+    font-size: 30px;
+        margin-top: 50px;
+}
+
+/*setting the location of the button away from the left side of the screen and changing the background color to being more visible by changing the opacity of the button when hovering over it*/
+button:hover {
+    margin-left: 5%;
+    width: auto;
+    background-color: #8869ce;
+    opacity: 100%;
+}
+/*NEEDS TO HAVE COMMENTS*/
+.text-box {
+    width: 40%;
+    height: 300px;
+    background-color: #0d48b5;
+        opacity: 80%;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 5%;
+            margin-right: 5%;
+                margin-bottom: 50px;
+            flex-wrap: wrap;
+            column-gap: 50px;
+            row-gap: 50px;
+            padding: 40px;
+    max-width: 500px;
+}
+
+/*setting the width of the paragraph divider and setting how far it is away from the left side of the screen*/
+hr {
+    max-width: 650px;
+        margin-left: 3%;
+}
+/*NEEDS TO HAVE COMMENTS*/
+#image-box {
+    width: auto;
+        height: 845px;
+    background-color: #8869ce;
+    opacity: 80%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+        margin-left: 55%;
+        margin-top: -910px;
+    padding: 10px;
+}
+#image-box-index {
+    width: auto;
+    height: 500px;
+    background-color: #8869ce;
+    opacity: 80%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: -500px;
+    padding: 10px;
+}
+/*setting the width od the image to being 500px*/
+img {
+    width: 100%;
+    max-width: 500px;
+}
+/*setting the size of the font within the heading container and setting it color*/
+h1 {
+    font-size: xx-large;
+    color: #051031;
+}
+p {
+    font-size: x-large;
+}
