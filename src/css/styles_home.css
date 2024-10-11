@@ -31,6 +31,9 @@ a {
     color: #051031;
     font-size: x-large;
 }
+a:hover {
+    border: #22e28c;
+}
 /*simple size setting of the dividers between the links*/
 p1 {
 font-size: xx-large;

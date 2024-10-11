@@ -47,6 +47,5 @@ const textToSpeech = (paragraph, button) => {
     }
 };
 
-// NEEEDS COMMENT SO GET IT DONE
 button.addEventListener("click", () => textToSpeech(area, button));
 button_2.addEventListener("click", () => textToSpeech(area_v2, button_2));
