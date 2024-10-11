@@ -32,9 +32,7 @@ a {
     font-size: x-large;
 }
 a:hover {
-    border: #22e28c;
-    border-width: 50px;
-        border-radius: 10%;
+background-color: #22e28c;
 }
 /*simple size setting of the dividers between the links*/
 p1 {
