@@ -33,6 +33,8 @@ a {
 }
 a:hover {
     border: #22e28c;
+    border-width: 50px;
+        border-radius: 10%;
 }
 /*simple size setting of the dividers between the links*/
 p1 {
