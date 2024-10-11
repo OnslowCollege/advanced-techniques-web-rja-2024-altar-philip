@@ -128,5 +128,6 @@ h1 {
     color: #051031;
 }
 p {
-    font-size: x-large;
+    font-size: clamp(small, medium, large);
+        margin-top: -20px;
 }
