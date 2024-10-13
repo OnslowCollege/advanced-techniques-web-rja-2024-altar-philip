@@ -29,7 +29,7 @@ body {
 a {
     text-decoration: None;
     color: #051031;
-    font-size: x-large;
+    font-size: clamp(1rem, 1.5vw, 1.1rem);
 }
 a:hover {
     background-color: #8869ce;
@@ -128,5 +128,6 @@ h1 {
     color: #051031;
 }
 p {
-    font-size: x-large;
+    margin-top: 20px;
+        font-size: clamp(0.5rem, 1.5vw, 1.1rem);
 }
