@@ -21,13 +21,13 @@ body {
     opacity: 80%;
     display: flex;
     justify-content: space-around;
-        flex-wrap: wrap;
+/*        flex-wrap: wrap;*/
         padding: 20px;
 }
 
 /*changes the color of the linked text within the navigation container removing the linking effects (the underlineing and color changing effect) and add a set size to the text.*/
 a {
-    margin-top: 7px;
+    margin-top: 1px;
     text-decoration: None;
     color: #051031;
     font-size: clamp(1.031rem, 1.5vw, 1.5rem);
