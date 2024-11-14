@@ -106,11 +106,10 @@ hr {
     padding: 10px;
 }
 #image-box-index {
-    width: auto;
+    width: clamp(500px, 100%, 1000px);
     height: 500px;
     background-color: #8869ce;
     opacity: 80%;
-    max-width: 100%;
     display: flex;
     justify-content: space-around;
     position: absolute;
@@ -120,7 +119,7 @@ hr {
 }
 /*setting the width od the image to being 500px*/
 img {
-    width: 100%;
+    width: clamp(500px, 100%, 1000px);
     max-width: 500px;
 }
 /*setting the size of the font within the heading container and setting it color*/
