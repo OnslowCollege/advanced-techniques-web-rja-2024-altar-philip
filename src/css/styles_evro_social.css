@@ -36,7 +36,7 @@ a:hover {
 }
 /*simple size setting of the dividers between the links*/
 p1 {
-font-size: xx-large;
+font-size: inherit;
 }
 /*setting the witdth of the ID heading making sure the the elemnt is centered within the continer and changing its color, adding opacity to the background color and moving it slightly away from the navigation bar*/
 #heading {
@@ -92,7 +92,7 @@ hr {
 }
 /*NEEDS TO HAVE COMMENTS*/
 #image-box {
-    width: auto;
+    width: clamp(430px, 46%, 600px);
         height: 845px;
     background-color: #8869ce;
     opacity: 80%;
