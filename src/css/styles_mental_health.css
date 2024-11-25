@@ -30,14 +30,14 @@ a {
     margin-top: 7px;
     text-decoration: None;
     color: #051031;
-    font-size: clamp(1.031rem, 1.5vw, 1.5rem);
+    font-size: clamp(0.1rem, 1.302vw, 2rem);
 }
 a:hover {
     background-color: #8869ce;
 }
 /*simple size setting of the dividers between the links*/
 p1 {
-font-size: xx-large;
+font-size: clamp(0.1rem, 1.8vw, 2rem);
 }
 /*setting the witdth of the ID heading making sure the the elemnt is centered within the continer and changing its color, adding opacity to the background color and moving it slightly away from the navigation bar*/
 #heading {
@@ -117,6 +117,7 @@ h1 {
     color: #051031;
 }
 p {
-    font-size: clamp(1rem, 1.5vw, 1.2rem);
-        margin-top: -20px;
+    font-size: clamp(0.94rem, 1.27vw, 2rem);
+        margin-top: -35px;
+        margin-left: -30px
 }
