@@ -29,14 +29,14 @@ body {
 a {
     text-decoration: None;
     color: #051031;
-    font-size: clamp(0.7rem, 1.3vw, 1.1rem);
+    font-size: clamp(0.7rem, 1.5vw, 2rem);
 }
 a:hover {
     background-color: #8869ce;
 }
 /*simple size setting of the dividers between the links*/
 p1 {
-font-size: inherit;
+font-size: clamp(0.6rem, 1.5vw, 2rem);
 }
 /*setting the witdth of the ID heading making sure the the elemnt is centered within the continer and changing its color, adding opacity to the background color and moving it slightly away from the navigation bar*/
 #heading {
@@ -82,7 +82,7 @@ button:hover {
             column-gap: 50px;
             row-gap: 50px;
             padding: 40px;
-    max-width: 500px;
+    max-width: clamp(500px, 745px, 1000px);
 }
 
 /*setting the width of the paragraph divider and setting how far it is away from the left side of the screen*/
@@ -115,7 +115,7 @@ h1 {
     color: #051031;
 }
 p {
-    margin-top: -35px;
+    margin-top: -36px;
         margin-left: -30px;
-        font-size: clamp(0.5rem, 1.5vw, 1.1rem);
+        font-size: clamp(0.6rem, 1.42vw, 1.44rem);
 }
