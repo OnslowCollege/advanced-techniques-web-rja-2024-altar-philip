@@ -128,7 +128,7 @@ h1 {
     color: #051031;
 }
 p {
-    font-size: clamp(0.67rem, 1vw, 2rem);
+    font-size: clamp(0.67rem, 0.94vw, 2rem);
         margin-top: -40px;
         margin-left: -37px;
 }
