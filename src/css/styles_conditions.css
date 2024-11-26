@@ -36,7 +36,7 @@ a:hover {
 }
 /*simple size setting of the dividers between the links*/
 p1 {
-font-size: xx-large;
+font-size: clamp(1rem, 1.2vw, 2rem);
 }
 /*setting the witdth of the ID heading making sure the the elemnt is centered within the continer and changing its color, adding opacity to the background color and moving it slightly away from the navigation bar*/
 #heading {
@@ -128,5 +128,7 @@ h1 {
     color: #051031;
 }
 p {
-    font-size: x-large;
+    font-size: clamp(0.67rem, 1vw, 2rem);
+        margin-top: -40px;
+        margin-left: -37px;
 }
