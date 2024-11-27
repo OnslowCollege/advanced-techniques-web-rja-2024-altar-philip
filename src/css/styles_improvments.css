@@ -29,7 +29,7 @@ body {
 a {
     text-decoration: None;
     color: #051031;
-    font-size: clamp(0.8rem, 1.3vw, 1.1rem);
+    font-size: clamp(0.8rem, 1.3vw, 2rem);
         margin-top: 9px;
 }
 a:hover {
