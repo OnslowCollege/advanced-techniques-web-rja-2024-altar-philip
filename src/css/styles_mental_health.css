@@ -118,6 +118,6 @@ h1 {
 }
 p {
     font-size: clamp(0.94rem, 1.27vw, 2rem);
-        margin-top: -35px;
-        margin-left: -30px
+        margin-top: -38px;
+            margin-left: -38px
 }
