@@ -83,7 +83,7 @@ button:hover {
             column-gap: 50px;
             row-gap: 50px;
             padding: 40px;
-    max-width: 500px;
+    max-width: clamp(500px, 745px, 1000px);
 }
 
 /*setting the width of the paragraph divider and setting how far it is away from the left side of the screen*/
